@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'>
+ <meta name='Generator' content='(©)FRBE-KBSB-v4.21 2019/09/17'>
+ <META name='Description' content='Classement des tournois échecs'>
+ <META name='Author' content='Georges Marchal'>
+ <META name='Keywords' content='échecs,echecs,chess,jeux,game,belgique,belgium,forum'>
+ <META name='Keywords' content='liège,liege,666,elo,classement,tournoi,interclub'>
+ <META name='Keywords' content='Swar, kbsb,frbe,fefb,vsf,svdb,666'>
+ <META name='Robots' content='all'>
+ <link rel='stylesheet' type='text/css' href='Logos/swar.css'>
+ <link rel='stylesheet' type='text/css' href='https://www.frbe-kbsb.be/sites/manager/GestionSWAR/Logos/swar.css'>
+ <style>
+  tr.spaceUnder>td {
+   padding-bottom: 1em;
+  }
+ </style>
+ <title>OKS Toernooi</title>
+</head>
+
+<body>
+<div align='center'>
+ <h3>
+  <a href="index.html">HOME</a>|
+  <u>RONDE 1</u>|
+  <a href="ronde2.html">RONDE 2</a>|
+  <a href="ronde3.html">RONDE 3</a>|
+  <a href="ronde4.html">RONDE 4</a>|
+  <a href="ronde5.html">RONDE 5</a>
+ </h3>
+
+ <!-- Verslag-->
+
+
+ <h3> De partijen</h3>
+ <table class='tableEnteteA'>
+  <tr><th>Partij    <i>(klikbaar!)</i></th><th>Resultaat</th><th>Commentaar</th></tr>
+  <#list obj as item>
+ <tr class='odd'><td class='tdlb' width="30%"><a target="_blank" href="${item.lichessLink}">${item.vs}</a><br/><br/></td><td>${item.result}</td><td>
+  <#if item.hasReport()>
+  ${item.report}
+  </#if>
+  </td></tr>
+ </#list>
+
+</table>
+
+ <!-- einde verslag -->
