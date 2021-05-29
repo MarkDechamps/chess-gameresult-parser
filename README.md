@@ -29,3 +29,5 @@ Make sure your Google form generates a csv file with the following structure (if
 * result: I use a drop down box with the values 1-0, 0-1 or 1/2-1/2 but you can use what you want.
 * link to the game: we use a lichess link, it makes the games clickable. But not mandatory.
 * game report: text box where people can write their game report.
+
+There is a zip file included in the project with the executable in it.
