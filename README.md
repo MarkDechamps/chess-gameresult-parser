@@ -20,6 +20,8 @@ here OKS2 Resultaten B-reeks is the name of the file, and the 4 is the round I w
 What does the csv file have to look like ? 
 Make sure your Google form generates a csv file with the following structure (if you don't like the struture you can always just change the code, it should be a breeze)
 
+[Google form example (mail me if you want to copy this form)](https://docs.google.com/forms/d/e/1FAIpQLSc6aupA6wnYZ_IAgUkHfwj5w3Rrnbi_D33ukzzsztr75kzHRA/viewform)
+
 [timestamp],[name], [game name], [round], [result], [link to the game], [game report]
 
 * timestamp: google forms always adds this
